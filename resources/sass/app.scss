@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: sans-serif;
+}
+
+
+/*CSS-HEADER*/
+#dc-logo-custom {
+    max-width: 6rem;
+    max-height: auto;
+
+}
+
+a:hover {
+    color: #007bff;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(17, 17, 17, 0.959);
+    display: inline-block;
+}

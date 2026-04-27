@@ -1,10 +1,11 @@
+
 @extends("layouts/master")
 
 @section("titolo")
 ComicsPage
 @endsection
 
-@section('homecontent')
-<h1>Questa e` una home page</h1>    
+@section('comicscontent')
+<h1>Questa e` la lista dei fumetti</h1>    
 @endsection
 
