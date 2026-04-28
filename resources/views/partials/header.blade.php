@@ -1,6 +1,6 @@
-<header>
-    <div class="container py-3">
-        <div class="row align-items-center">
+<header class="bg-light">
+    <div class="container py-3 ">
+        <div class="row align-items-center ">
             <div class="col-4">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="logoDC" class="img-fluid">
             </div>
@@ -15,3 +15,8 @@
         </div>
     </div>
 </header>
+<div>
+        <img id="jumbotron" class="w-100" 
+             src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" 
+             alt="Jumbotron DC">
+    </div>

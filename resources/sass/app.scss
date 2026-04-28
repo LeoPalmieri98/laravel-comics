@@ -14,17 +14,10 @@
 }
 
 body {
-    background-color: #eeeeee;
+    background-color: #252525;
     font-family: sans-serif;
 }
 
-
-/*CSS-HEADER*/
-#dc-logo-custom {
-    max-width: 6rem;
-    max-height: auto;
-
-}
 
 a:hover {
     color: #007bff;
@@ -35,4 +28,22 @@ nav>ul>li>a {
     font-weight: 600;
     color: rgba(17, 17, 17, 0.959);
     display: inline-block;
+}
+
+#jumbotron {
+    height: 400px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.icon-img {
+    max-width: 4rem;
+    height: auto;
+}
+
+.bg-dc-comics {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
