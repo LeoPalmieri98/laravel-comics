@@ -56,4 +56,18 @@
         </div>
     </div>
 </div>
-                                
+                       
+
+            <div class="bg-dark py-3">
+                <div class="container d-flex justify-content-between align-items-center py-4">
+                    <button class="btn btn-outline-primary text-white fw-bold">SIGN-UP NOW!</button>
+                    <div className="d-flex align-items-center gap-3">
+                        <span class="text-primary fw-bold">FOLLOW US</span>
+                        <img src="{{ Vite::asset('resources/img/footer-facebook.png') }}"  alt="facebook-icon" />
+                        <img src="{{ Vite::asset('resources/img/footer-twitter.png') }}"   alt="twitter-icon" />
+                        <img src="{{ Vite::asset('resources/img/footer-youtube.png') }}"   alt="youtube-icon" />
+                        <img src="{{ Vite::asset('resources/img/footer-pinterest.png') }}"   alt="pinterest-icon" />
+                        <img  src="{{ Vite::asset('resources/img/footer-periscope.png') }}" alt="periscope-icon" />
+                    </div>
+                </div>
+            </div>
